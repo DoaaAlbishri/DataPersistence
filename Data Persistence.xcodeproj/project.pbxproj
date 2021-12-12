@@ -14,8 +14,8 @@
 		841AD7D52766096D0053A879 /* Data_Persistence.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841AD7D32766096D0053A879 /* Data_Persistence.xcdatamodeld */; };
 		841AD7D72766096E0053A879 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841AD7D62766096E0053A879 /* Assets.xcassets */; };
 		841AD7DA2766096E0053A879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841AD7D82766096E0053A879 /* LaunchScreen.storyboard */; };
-		841AD7E327661BCA0053A879 /* CRUDTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AD7E127661BCA0053A879 /* CRUDTableViewController.swift */; };
-		841AD7E427661BCA0053A879 /* TableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AD7E227661BCA0053A879 /* TableViewControllerDelegate.swift */; };
+		841AD7E7276626750053A879 /* CRUDTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AD7E5276626750053A879 /* CRUDTableViewController.swift */; };
+		841AD7E8276626750053A879 /* TableViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841AD7E6276626750053A879 /* TableViewControllerDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,8 +28,8 @@
 		841AD7D62766096E0053A879 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841AD7D92766096E0053A879 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841AD7DB2766096E0053A879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		841AD7E127661BCA0053A879 /* CRUDTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CRUDTableViewController.swift; path = "../../Github/Bucket List Refactor/Bucket List Refactor/CRUDTableViewController.swift"; sourceTree = "<group>"; };
-		841AD7E227661BCA0053A879 /* TableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewControllerDelegate.swift; path = "../../Github/Bucket List Refactor/Bucket List Refactor/TableViewControllerDelegate.swift"; sourceTree = "<group>"; };
+		841AD7E5276626750053A879 /* CRUDTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CRUDTableViewController.swift; sourceTree = "<group>"; };
+		841AD7E6276626750053A879 /* TableViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +65,8 @@
 				841AD7CA2766096D0053A879 /* AppDelegate.swift */,
 				841AD7CC2766096D0053A879 /* SceneDelegate.swift */,
 				841AD7CE2766096D0053A879 /* ViewController.swift */,
-				841AD7E127661BCA0053A879 /* CRUDTableViewController.swift */,
-				841AD7E227661BCA0053A879 /* TableViewControllerDelegate.swift */,
+				841AD7E5276626750053A879 /* CRUDTableViewController.swift */,
+				841AD7E6276626750053A879 /* TableViewControllerDelegate.swift */,
 				841AD7D02766096D0053A879 /* Main.storyboard */,
 				841AD7D62766096E0053A879 /* Assets.xcassets */,
 				841AD7D82766096E0053A879 /* LaunchScreen.storyboard */,
@@ -149,9 +149,9 @@
 			files = (
 				841AD7CF2766096D0053A879 /* ViewController.swift in Sources */,
 				841AD7CB2766096D0053A879 /* AppDelegate.swift in Sources */,
-				841AD7E327661BCA0053A879 /* CRUDTableViewController.swift in Sources */,
+				841AD7E7276626750053A879 /* CRUDTableViewController.swift in Sources */,
 				841AD7CD2766096D0053A879 /* SceneDelegate.swift in Sources */,
-				841AD7E427661BCA0053A879 /* TableViewControllerDelegate.swift in Sources */,
+				841AD7E8276626750053A879 /* TableViewControllerDelegate.swift in Sources */,
 				841AD7D52766096D0053A879 /* Data_Persistence.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
